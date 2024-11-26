@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Orçamento - Uchoar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="js/firebase.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Uchoar</h1>
+    </header>
+    <main>
+        <h2>Faça seu Orçamento Conosco</h2>
+        <form id="orcamento-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+            <label for="tipo-instalacao">Tipo de Instalação:</label>
+            <input type="text" id="tipo-instalacao" name="tipo-instalacao" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="orcamento.html">Faça seu Orçamento</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
